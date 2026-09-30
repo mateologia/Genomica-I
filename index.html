@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Pangenomax - Jogo de Genômica</title>
+  <title>Genômica I - Jogo de Genômica</title>
   <style>
     :root {
       --bg-dark: #0d1117;
@@ -533,7 +533,7 @@
   <main class="container">
     <!-- MENU PRINCIPAL -->
     <section id="screen-menu" class="screen active">
-      <h1 class="brand-title">Pangenomax</h1>
+      <h1 class="brand-title">Genômica I</h1>
       <p class="subtitle">Plataforma Interativa de Fixação em Genômica e Bioinformática</p>
       <div class="menu-options">
         <button class="btn" onclick="startQuiz('intro')">1. Introdução à Genômica</button>
@@ -736,7 +736,7 @@
     function exportAchievements() {
       const store = loadAchievementsData();
       const exportObj = {
-        game: "Pangenomax",
+        game: "Genômica I",
         exportDate: new Date().toISOString(),
         achievements: store
       };
